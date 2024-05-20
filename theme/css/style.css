@@ -100,7 +100,12 @@ body {
     margin: 20px;
   }
   #construction{
-    background-color: #374254;height: 600px;
+    background-color: #374254;
+    height: 600px;
+  }
+  .last-paragraph{
+    font-size: 18px;
+    width:100%;
   }
 
 /* add this color 455A64*/
@@ -150,13 +155,14 @@ body {
   color: #626973;
   font-size: 18px;
 }
-.title-objectif{
+/* .title-objectif{
   display: none;
-}
+} */
 .projet-realise{
   padding: 10px 10px 60px;
   /* background-color: #e0f0ed;b0d5d5 ;0a3b47 3f5c64 1e677c*/
   background-color: #3f5c64;
+  /* background-color: #1e4450; */
   font-family: 'Rubik';
   /* color: white; */
 }
@@ -178,6 +184,7 @@ label{
   color: #006600;
   font-size: 18px;
 }
+
 .large-img{
   width: 90%;
   height: 600px;
@@ -190,6 +197,12 @@ label{
   color: black;
   width:80%;
   margin-bottom:150px
+}
+.objectif-comment{
+    font-size: 22px;
+    color: black;
+    width:80%;
+    margin-bottom:50px
 }
 .image{
   width: 400px;
@@ -2400,7 +2413,7 @@ a:focus, a:hover {
     height: 120%;
   }
   .objectif{
-    height: 900px;
+    height: 220%;
     padding-top: 60px;
     padding-left: 18px;
   }
@@ -2425,7 +2438,8 @@ a:focus, a:hover {
   .service-card{
     padding-top: 30px;
     margin-bottom: 25px;
-    height: 450px;
+    height: 95%;
+    width: 100%;
     /* background-color: red; */
   }
   
@@ -2462,11 +2476,12 @@ a:focus, a:hover {
   }
   .project-text{
     font-size: 15px;
-    padding: 10px;
-    margin-left: -60px;
-    width: 115%;
     /* background-color: blue; */
+    width: 100%;
   }
+  /* .col-projet{
+    background-color: red;
+  } */
   .project-txt{
     font-size: 18px;
     padding: 5px;
@@ -2489,7 +2504,7 @@ a:focus, a:hover {
   .contact-col{
     margin-left: -80px;
   }
-  .service-comment{
+  .service-comment, .objectif-comment{
     font-size: 20px;
     width: 100%;
   }
@@ -2540,14 +2555,16 @@ a:focus, a:hover {
     width: 200%
   }
   .projet-text{
-    padding-left: 30px;
-    /* text-align: start; */
+    /* padding-left: 30px; */
+    text-align: start;
+    width: 100%;
+    /* padding: ; */
   }
   .btn-green, .btn-projet{
     display: inline-block;
   }
   #construction{
-    height: 900px;
+    height: 100%;
   }
   .image{
     width: 100%;
@@ -2555,6 +2572,9 @@ a:focus, a:hover {
   }
   .image-projet{
     width: 600px;
+  }
+  .last-paragraph{
+    padding: 10px;
   }
   
 }

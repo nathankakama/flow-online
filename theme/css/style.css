@@ -83,16 +83,15 @@ body {
     font-family: 'Rubik';
     
   }
-  .col-service{
-    padding:100px;
-    border-bottom:1px solid gray;
-    margin-right:50px"
-  }
   .trading{
     background-color: white;
   }
   .image-projet{
     height: 300px;
+    width: 400px;
+  }
+  .image-only{
+    width:600px;
   }
   hr{
     background-color: #1e7387;
@@ -106,6 +105,7 @@ body {
   .last-paragraph{
     font-size: 18px;
     width:100%;
+    padding: 20px;
   }
 
 /* add this color 455A64*/
@@ -113,11 +113,14 @@ body {
   color: white;
   font-size: 22px;
   width: 35px;
-  height: 115px;
   text-align: center;
   padding: 2px;
   float: left;
-  margin-right: 10px;
+  margin-right: 20px;
+}
+.col-number{
+  width: 35px;
+  /* background-color: blue; */
 }
 .number-card{
   background-color: #3894A3;
@@ -150,6 +153,7 @@ body {
   padding-top: 120px;
   margin-top: -80px;
   font-family: 'Rubik';
+  padding-bottom: 100px;
 }
 .text-objectif{
   color: #626973;
@@ -215,6 +219,10 @@ label{
   background-color: white;
   padding-top: 20px;
 }
+.projet-text{
+  text-align: center;
+  padding: 20px;
+}
 .service-icon{
   background-color: black;
   width: 55px;
@@ -252,6 +260,7 @@ label{
   font-size: 23px;
   font-weight: 500;
   width: 80%;
+ padding-left: 30px;
 }
 .projet-comment{
   font-family: 'Rubik';
@@ -266,7 +275,6 @@ label{
   display: none;
 }
 .image-container, .img-const{
-  
   height: 300px;
   width:370px;
   /* background-color: blue; */
@@ -2374,7 +2382,7 @@ a:focus, a:hover {
 /*============================================================
 	Mobile (Landscape) Design for a width of 480px
 ==============================================================*/
-/* Phone and Tablet */
+/* Phone and tablet design*/
 
 @media  screen and (max-width: 1023px){
   /*  */
@@ -2393,7 +2401,7 @@ a:focus, a:hover {
     margin-top: -250px;
   }
   .image-container{
-    text-align: start;
+    text-align: center;
     width: 100%;
     padding-left: 10px;
     margin: 10%;
@@ -2437,9 +2445,9 @@ a:focus, a:hover {
   }
   .service-card{
     padding-top: 30px;
-    margin-bottom: 25px;
+    margin-bottom: 45px;
     height: 95%;
-    width: 100%;
+    width: 65%;
     /* background-color: red; */
   }
   
@@ -2454,8 +2462,8 @@ a:focus, a:hover {
     width:450px;
   }
   .img, .img-two{
-    height:300px;
-    width:80%;
+    height:400px;
+    width:65%;
   }
   .col-img{
     text-align: center;
@@ -2466,7 +2474,9 @@ a:focus, a:hover {
     
   }
   .col-service{
-    border-bottom: none;
+      text-align: center;
+      display: flex;
+      justify-content: center;
   }
   .round-number{
     margin: 0px 10px 20px;
@@ -2567,16 +2577,37 @@ a:focus, a:hover {
     height: 100%;
   }
   .image{
-    width: 100%;
+    width: 80%;
    
   }
-  .image-projet{
-    width: 600px;
+  .image-projet, .image-only{
+    width: 70%;
   }
   .last-paragraph{
     padding: 10px;
   }
   
 }
+/* End phone and tablet design */
 
+/* Phone only design */
+@media screen and (max-width: 767px) {
+  .service-card{
+    height: 95%;
+    width: 90%;
+    margin-bottom: 25px;
+  }
+  .img, .img-two{
+    height:300px;
+    width:80%;
+  }
+  .image{
+    width: 100%;
+   
+  }
+  .image-projet, .image-only{
+    width: 100%;
+  }
+}
+/* End phone only design */
 

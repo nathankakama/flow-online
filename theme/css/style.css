@@ -23,7 +23,7 @@ body {
 /*  */
   .apropos{
     font-size: 19px;
-    margin-bottom: 80px;
+    margin-bottom: 58px;
     font-family: 'Rubik';
   }
   .construction{
@@ -259,12 +259,15 @@ label{
   font-family: 'Arimo';
   font-size: 23px;
   font-weight: 500;
-  width: 80%;
- padding-left: 30px;
+  width: 100%;
+  padding-left: 30px;
+  text-align: start;
+  /* background-color: blue; */
 }
 .projet-comment{
   font-family: 'Rubik';
   font-size: 18px;
+  text-align: start;
   /* background-color: blue; */
 }
 .img-projet{
